@@ -1,8 +1,8 @@
 {
-  "name": "@dashevo/insight-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Dash network and build your own services with it.",
-  "version": "3.1.2",
-  "repository": "git://github.com/dashevo/insight-ui.git",
+  "name": "insight-ui-alterdot",
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Alterdot network and build your own services with it.",
+  "version": "1.0.0",
+  "repository": "git://github.com/Alterdot/insight-ui-alterdot.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -30,20 +30,20 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashevo/insight-ui/issues"
+    "url": "https://github.com/Alterdot/insight-ui-alterdot/issues"
   },
-  "homepage": "https://github.com/dashevo/insight-ui",
+  "homepage": "https://github.com/Alterdot/insight-ui-alterdot",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "dash",
-    "bitcore-dash",
-    "front-end",
-    "dashcore"
+    "adot",
+    "alterdot",
+    "bitcore-adot",
+    "front-end"
   ],
-  "dashcoreNode": "dashcore-node",
+  "alterdotNode": "alterdot-node",
   "scripts": {
     "build": "bower install && grunt compile",
     "watch": "grunt",

@@ -22,9 +22,9 @@ describe('basic UI tests', () => {
 
     const insightUIContainerOptions = {
       volumes: [
-        `${rootPath}/dashcore-node:/insight/node_modules/@dashevo/insight-ui/dashcore-node`,
-        `${rootPath}/po:/insight/node_modules/@dashevo/insight-ui/po`,
-        `${rootPath}/public:/insight/node_modules/@dashevo/insight-ui/public`,
+        `${rootPath}/alterdot-node:/insight/node_modules/insight-ui-alterdot/alterdot-node`,
+        `${rootPath}/po:/insight/node_modules/insight-ui-alterdot/po`,
+        `${rootPath}/public:/insight/node_modules/insight-ui-alterdot/public`,
       ],
     };
 
@@ -39,7 +39,7 @@ describe('basic UI tests', () => {
 
     url = `http://127.0.0.1:${masterNode.insightUi.options.getUiPort()}/insight/`;
 
-    await masterNode.dashCore.getApi().generate(15);
+    await masterNode.alterdot.getApi().generate(15);
   });
 
   afterAll(async () => {
@@ -170,7 +170,7 @@ describe('basic UI tests', () => {
       expect(height).equal(`${blockIdToSearch} (Mainchain)`);
 
       const blockReward = await blockPage.getBlockReward();
-      expect(blockReward).equal('500 DASH');
+      expect(blockReward).equal('11 ADOT');
 
       const timestamp = await blockPage.getTimestamp();
       expect(timestamp).not.equal('');
@@ -213,7 +213,7 @@ describe('basic UI tests', () => {
       expect(height).equal(`${blockIdToSearch} (Mainchain)`);
 
       const blockReward = await blockPage.getBlockReward();
-      expect(blockReward).equal('500 DASH');
+      expect(blockReward).equal('500 ADOT');
 
       const timestamp = await blockPage.getTimestamp();
       expect(timestamp).not.equal('');

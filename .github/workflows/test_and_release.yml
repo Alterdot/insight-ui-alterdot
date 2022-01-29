@@ -132,7 +132,7 @@ jobs:
         id: docker_meta
         uses: docker/metadata-action@v3
         with:
-          images: dashpay/insight
+          images: Alterdot/insight
           tags: |
             type=match,pattern=v(\d+),group=1
             type=match,pattern=v(\d+.\d+),group=1
