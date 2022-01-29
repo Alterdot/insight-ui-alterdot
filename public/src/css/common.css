@@ -163,7 +163,8 @@ margin-left: 0;
 
 .navbar-default .navbar-brand {
   color: #FFFFFF;
-  padding: -40px 15px;
+  padding: 10px;
+  margin-left: -5px !important;
 }
 
 .navbar-form .form-control {
@@ -796,7 +797,7 @@ a.v_highlight_more {
     font-size: 20px;
   }
   .navbar-default .navbar-brand {
-    padding: 15px;
+    padding: 7px 10px;
   }
   .insight {
     font-size: 26px;
