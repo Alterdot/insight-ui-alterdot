@@ -26,7 +26,7 @@ angular.module('insight.address')
       return {
         test: function (addressStr) {
 
-          return /^[XxYy][1-9A-Za-z][^OIl]{20,40}/.test(addressStr);
+          return /^[Cc5][1-9A-Za-z][^OIl]{20,40}/.test(addressStr);
         }
       };
     });
