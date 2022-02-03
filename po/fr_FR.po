@@ -331,10 +331,6 @@ msgstr "Taille (octets)"
 msgid "Skipped Blocks (previously synced)"
 msgstr "Blocs ignorés (préalablement synchronisés)"
 
-#: public/views/status.html
-msgid "Start Date"
-msgstr "Date de début"
-
 #: public/views/dummy-translations.html
 msgid "Status"
 msgstr "Status"

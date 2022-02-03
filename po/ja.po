@@ -375,10 +375,6 @@ msgstr "サイズ (バイト)"
 msgid "Skipped Blocks (previously synced)"
 msgstr "スキップされたブロック (同期済み)"
 
-#: public/views/status.html
-msgid "Start Date"
-msgstr "開始日時"
-
 #: public/views/dummy-translations.html
 msgid "Status"
 msgstr "ステータス"

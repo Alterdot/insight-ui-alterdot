@@ -384,10 +384,6 @@ msgstr "大小(字节)"
 msgid "Skipped Blocks (previously synced)"
 msgstr "已跳过块数量"
 
-#: public/views/status.html
-msgid "Start Date"
-msgstr "开始时间"
-
 #: public/views/dummy-translations.html
 msgid "Status"
 msgstr "状态"

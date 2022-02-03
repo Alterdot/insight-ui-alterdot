@@ -340,10 +340,6 @@ msgstr "Größe (bytes)"
 msgid "Skipped Blocks (previously synced)"
 msgstr "Verworfene Blöcke (bereits syncronisiert)"
 
-#: public/views/status.html
-msgid "Start Date"
-msgstr "Startdatum"
-
 #: public/views/dummy-translations.html
 msgid "Status"
 msgstr "Status"

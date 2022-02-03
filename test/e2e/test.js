@@ -87,9 +87,6 @@ describe('basic UI tests', () => {
       const currentSyncStatus = await statusPage.getCurrentSyncStatus();
       expect(currentSyncStatus).equal('finished');
 
-      const startDate = await statusPage.getStartDate();
-      expect(startDate).equal('Invalid date');
-
       const initialBlockChainHeight = await statusPage.getInitialBlockChainHeight();
       expect(Number.isInteger(parseInt(initialBlockChainHeight, 10))).equal(true);
 

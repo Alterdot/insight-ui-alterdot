@@ -340,10 +340,6 @@ msgstr "Grootte (bytes)"
 msgid "Skipped Blocks (previously synced)"
 msgstr "Overgeslagen blokken (voorheen gesynchroniseerd)"
 
-#: public/views/status.html
-msgid "Start Date"
-msgstr "Startdatum"
-
 #: public/views/dummy-translations.html
 msgid "Status"
 msgstr "Status"
