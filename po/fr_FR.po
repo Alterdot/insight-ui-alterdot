@@ -180,8 +180,8 @@ msgid "Info Errors"
 msgstr "Erreurs d'informations"
 
 #: public/views/status.html
-msgid "Initial Block Chain Height"
-msgstr "Hauteur de la chaîne initiale"
+msgid "Block Chain Height"
+msgstr "Hauteur de la chaîne"
 
 #: public/views/transaction.html
 msgid "Input"
@@ -327,10 +327,6 @@ msgstr "Taille"
 msgid "Size (bytes)"
 msgstr "Taille (octets)"
 
-#: public/views/status.html
-msgid "Skipped Blocks (previously synced)"
-msgstr "Blocs ignorés (préalablement synchronisés)"
-
 #: public/views/dummy-translations.html
 msgid "Status"
 msgstr "Status"
@@ -354,10 +350,6 @@ msgstr "Status de la synchronisation"
 #: public/views/status.html
 msgid "Sync Type"
 msgstr "Type de la synchronisation"
-
-#: public/views/status.html
-msgid "Synced Blocks"
-msgstr "Blocs synchronisés"
 
 #: public/views/status.html
 msgid "Testnet"

@@ -87,14 +87,8 @@ describe('basic UI tests', () => {
       const currentSyncStatus = await statusPage.getCurrentSyncStatus();
       expect(currentSyncStatus).equal('finished');
 
-      const initialBlockChainHeight = await statusPage.getInitialBlockChainHeight();
-      expect(Number.isInteger(parseInt(initialBlockChainHeight, 10))).equal(true);
-
-      const syncedBlocks = await statusPage.getSyncedBlocks();
-      expect(syncedBlocks).equal('');
-
-      const skippedBlocks = await statusPage.getSkippedBlocks();
-      expect(skippedBlocks).equal('');
+      const blockChainHeight = await statusPage.getBlockChainHeight();
+      expect(Number.isInteger(parseInt(blockChainHeight, 10))).equal(true);
 
       const syncType = await statusPage.getSyncType();
       expect(syncType).equal('bitcore node');

@@ -28,7 +28,7 @@
               <span  class="glyphicon glyphicon-warning-sign"></span>
               ERROR
           </span>
-          <span class="t" tooltip="{{sync.syncedBlocks}} / {{sync.blockChainHeight}} synced. {{sync.skippedBlocks || 0}} skipped" tooltip-placement="bottom" data-ng-show="sync.status==='syncing'">
+          <span class="t" data-ng-show="sync.status==='syncing'">
             <span  class="glyphicon glyphicon-refresh icon-rotate"></span>
             {{sync.syncPercentage}}%
           </span>

@@ -201,8 +201,8 @@ msgid "Info Errors"
 msgstr "エラー情報"
 
 #: public/views/status.html
-msgid "Initial Block Chain Height"
-msgstr "起動時のブロック高"
+msgid "Block Chain Height"
+msgstr "のブロック高"
 
 #: public/views/transaction.html
 msgid "Input"
@@ -371,10 +371,6 @@ msgstr "サイズ"
 msgid "Size (bytes)"
 msgstr "サイズ (バイト)"
 
-#: public/views/status.html
-msgid "Skipped Blocks (previously synced)"
-msgstr "スキップされたブロック (同期済み)"
-
 #: public/views/dummy-translations.html
 msgid "Status"
 msgstr "ステータス"
@@ -398,10 +394,6 @@ msgstr "同期ステータス"
 #: public/views/status.html
 msgid "Sync Type"
 msgstr "同期タイプ"
-
-#: public/views/status.html
-msgid "Synced Blocks"
-msgstr "同期されたブロック数"
 
 #: public/views/status.html
 msgid "Testnet"

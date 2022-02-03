@@ -187,8 +187,8 @@ msgid "Info Errors"
 msgstr "Fehlerbeschreibung"
 
 #: public/views/status.html
-msgid "Initial Block Chain Height"
-msgstr "Ursprüngliche Blockchain Höhe"
+msgid "Block Chain Height"
+msgstr "Blockchain Höhe"
 
 #: public/views/transaction.html
 msgid "Input"
@@ -336,10 +336,6 @@ msgstr "Größe"
 msgid "Size (bytes)"
 msgstr "Größe (bytes)"
 
-#: public/views/status.html
-msgid "Skipped Blocks (previously synced)"
-msgstr "Verworfene Blöcke (bereits syncronisiert)"
-
 #: public/views/dummy-translations.html
 msgid "Status"
 msgstr "Status"
@@ -363,10 +359,6 @@ msgstr "Syncronisation"
 #: public/views/status.html
 msgid "Sync Type"
 msgstr "Art der Syncronisation"
-
-#: public/views/status.html
-msgid "Synced Blocks"
-msgstr "Syncronisierte Blöcke"
 
 #: public/views/status.html
 msgid "Testnet"

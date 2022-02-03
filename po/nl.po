@@ -187,8 +187,8 @@ msgid "Info Errors"
 msgstr "Foutbeschrijving"
 
 #: public/views/status.html
-msgid "Initial Block Chain Height"
-msgstr "Oorspronkelijke blokketenhoogte"
+msgid "Block Chain Height"
+msgstr "Blokketenhoogte"
 
 #: public/views/transaction.html
 msgid "Input"
@@ -336,10 +336,6 @@ msgstr "Grootte"
 msgid "Size (bytes)"
 msgstr "Grootte (bytes)"
 
-#: public/views/status.html
-msgid "Skipped Blocks (previously synced)"
-msgstr "Overgeslagen blokken (voorheen gesynchroniseerd)"
-
 #: public/views/dummy-translations.html
 msgid "Status"
 msgstr "Status"
@@ -363,10 +359,6 @@ msgstr "Synchronisatiestatus"
 #: public/views/status.html
 msgid "Sync Type"
 msgstr "Synchronisatietype"
-
-#: public/views/status.html
-msgid "Synced Blocks"
-msgstr "Gesynchroniseerde blokken"
 
 #: public/views/status.html
 msgid "Testnet"

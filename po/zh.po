@@ -203,8 +203,8 @@ msgid "Info Errors"
 msgstr "错误信息"
 
 #: public/views/status.html
-msgid "Initial Block Chain Height"
-msgstr "最新区块高度"
+msgid "Block Chain Height"
+msgstr "区块高度"
 
 #: public/views/transaction.html
 msgid "Input"
@@ -380,10 +380,6 @@ msgstr "大小"
 msgid "Size (bytes)"
 msgstr "大小(字节)"
 
-#: public/views/status.html
-msgid "Skipped Blocks (previously synced)"
-msgstr "已跳过块数量"
-
 #: public/views/dummy-translations.html
 msgid "Status"
 msgstr "状态"
@@ -407,10 +403,6 @@ msgstr "同步状态"
 #: public/views/status.html
 msgid "Sync Type"
 msgstr "同步类型"
-
-#: public/views/status.html
-msgid "Synced Blocks"
-msgstr "已同步块数量"
 
 #: public/views/status.html
 msgid "Testnet"
