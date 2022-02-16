@@ -124,8 +124,8 @@ margin-left: 0;
 .navbar-default .navbar-nav>li>a {
   color: #cfe3f4;
   font-family: 'Roboto', sans-serif;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
@@ -858,7 +858,7 @@ a.v_highlight_more {
     width: 280px;
   }
   .navbar-form .form-control {
-    width: 340px;
+    width: 330px;
   }
 }
 
