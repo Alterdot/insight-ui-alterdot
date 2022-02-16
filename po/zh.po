@@ -22,15 +22,15 @@ msgstr "404 页面不存在"
 #: public/views/index.html
 msgid ""
 "<strong>insight</strong>  is an <a href=\"http://live.insight.is/\" target="
-"\"_blank\">open-source Bitcoin blockchain explorer</a> with complete REST and "
+"\"_blank\">open-source Alterdot blockchain explorer</a> with complete REST and "
 "websocket APIs that can be used for writing web wallets and other apps  that "
-"need more advanced blockchain queries than provided by bitcoind RPC.  Check "
+"need more advanced blockchain queries than provided by alterdotd RPC.  Check "
 "out the <a href=\"https://github.com/bitpay/insight-ui\" target=\"_blank"
 "\">source code</a>."
 msgstr ""
 "<strong>insight</strong>是一个开源的比特币区块链浏览器。<a href=\"http://live."
 "insight.is/\" target=\"_blank\">支持完整的REST和Web Socket API 调用，可用于编"
-"写Web钱包和其他需要比bitcoind RPC提供的更高级区块链查询的应用程序。查看源代码"
+"写Web钱包和其他需要比alterdotd RPC提供的更高级区块链查询的应用程序。查看源代码"
 "</a><a href=\"https://github.com/Alterdot/insight-ui-alterdot\" target=\"_blank\"></a>"
 
 #: public/views/index.html
@@ -71,11 +71,11 @@ msgid "Best Block"
 msgstr "最好的块"
 
 #: public/views/messages_verify.html
-msgid "Bitcoin comes with a way of signing arbitrary messages."
-msgstr "Bitcoin可以签名任意消息"
+msgid "Alterdot comes with a way of signing arbitrary messages."
+msgstr "Alterdot可以签名任意消息"
 
 #: public/views/status.html
-msgid "Bitcoin node information"
+msgid "Alterdot node information"
 msgstr "比特币节点信息"
 
 #: public/views/block.html
@@ -105,8 +105,8 @@ msgstr "序列化后的大小 (B)"
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to bitcoind to get live updates from the p2p network. (Tried "
-"connecting to bitcoind at {{host}}:{{port}} and failed.)"
+"Can't connect to alterdotd to get live updates from the p2p network. (Tried "
+"connecting to alterdotd at {{host}}:{{port}} and failed.)"
 msgstr "无法连接到BitCoin P2P网络。(尝试{{host}}:{{port}} 连接失败)"
 
 #: public/views/includes/connection.html
@@ -215,8 +215,8 @@ msgid "Last Block"
 msgstr "最新区块信息"
 
 #: public/views/status.html
-msgid "Last Block Hash (Bitcoind)"
-msgstr "最新区块哈希(Bitcoind)"
+msgid "Last Block Hash (alterdotd)"
+msgstr "最新区块哈希(alterdotd)"
 
 #: public/views/index.html
 msgid "Latest Blocks"
@@ -423,13 +423,13 @@ msgstr "此地址没有发生过交易"
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\n"
-"        the Bitcoin network."
+"        the Alterdot network."
 msgstr "此表单可用于以十六进制格式通过比特币网络广播一个原始事务。"
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\n"
-"        a specific Bitcoin address."
+"        a specific Alterdot address."
 msgstr "此表单可用于验证消息是否来自特定的比特币地址。"
 
 #: public/views/status.html

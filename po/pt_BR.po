@@ -19,14 +19,14 @@ msgstr "(Entrada não confirmada)"
 #: public/views/index.html
 msgid ""
 "<strong>insight</strong>  is an <a href=\"https://insight.is/\" target="
-"\"_blank\">open-source Bitcoin blockchain explorer</a> with complete REST "
+"\"_blank\">open-source Alterdot blockchain explorer</a> with complete REST "
 "and websocket APIs that can be used for writing web wallets and other apps  "
-"that need more advanced blockchain queries than provided by bitcoind RPC.  "
+"that need more advanced blockchain queries than provided by alterdotd RPC.  "
 "Check out the <a href=\"https://github.com/bitpay/insight-ui\" target="
 "\"_blank\">source code</a>."
 msgstr ""
 "<strong>insight</Strong> é um <a href=\"https://insight.is/\" target=\"_blank"
-"\">explorador de blocos Bitcoin de código aberto</a> com um conjunto "
+"\">explorador de blocos Alterdot de código aberto</a> com um conjunto "
 "completo de APIs de websocket e REST que podem ser usadas para programar "
 "carteiras online e outros aplicativos que necessitam consultar um explorador "
 "de blocos. Confira o <a href=\"https://github.com/Alterdot/insight-ui-alterdot\" target="
@@ -72,12 +72,12 @@ msgid "Application Status"
 msgstr "Estado do Aplicativo"
 
 #: public/views/messages_verify.html
-msgid "Bitcoin comes with a way of signing arbitrary messages."
-msgstr "Bitcoin possui um método de assinar mensagens arbitrárias."
+msgid "Alterdot comes with a way of signing arbitrary messages."
+msgstr "Alterdot possui um método de assinar mensagens arbitrárias."
 
 #: public/views/status.html
-msgid "Bitcoin node information"
-msgstr "Informações do nó Bitcoin"
+msgid "Alterdot node information"
+msgstr "Informações do nó Alterdot"
 
 #: public/views/block.html
 msgid "Block"
@@ -102,10 +102,10 @@ msgstr "por data."
 
 #: public/views/includes/connection.html
 msgid ""
-"Can't connect to bitcoind to get live updates from the p2p network. (Tried "
-"connecting to bitcoind at {{host}}:{{port}} and failed.)"
+"Can't connect to alterdotd to get live updates from the p2p network. (Tried "
+"connecting to alterdotd at {{host}}:{{port}} and failed.)"
 msgstr ""
-"Não foi possível conectar-se ao bitcoind para obter atualizações em tempo "
+"Não foi possível conectar-se ao alterdotd para obter atualizações em tempo "
 "real da rede p2p. (A tentativa de conectar-se à {{host}}:{{port}} falhou.)"
 
 #: public/views/includes/connection.html
@@ -215,8 +215,8 @@ msgid "Last Block"
 msgstr "Último Bloco"
 
 #: public/views/status.html
-msgid "Last Block Hash (Bitcoind)"
-msgstr "Hash do Último Bloco (Bitcoind)"
+msgid "Last Block Hash (alterdotd)"
+msgstr "Hash do Último Bloco (alterdotd)"
 
 #: public/views/index.html
 msgid "Latest Blocks"
@@ -419,19 +419,19 @@ msgstr "Não existem transações envolvendo este endereço."
 #: public/views/transaction_sendraw.html
 msgid ""
 "This form can be used to broadcast a raw transaction in hex format over\r\n"
-"        the Bitcoin network."
+"        the Alterdot network."
 msgstr ""
 "Este formulário pode ser usado para transmitir uma transação bruta em "
 "formato \r\n"
-"        hexadecimal para a rede Bitcoin."
+"        hexadecimal para a rede Alterdot."
 
 #: public/views/messages_verify.html
 msgid ""
 "This form can be used to verify that a message comes from\r\n"
-"        a specific Bitcoin address."
+"        a specific Alterdot address."
 msgstr ""
 "Este formulário pode ser usado para verificar se uma mensagem\r\n"
-"        veio de um endereço Bitcoin específico."
+"        veio de um endereço Alterdot específico."
 
 #: public/views/status.html
 msgid "Time Offset"

@@ -1,7 +1,7 @@
 {
   "name": "insight-ui-alterdot",
   "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Alterdot network and build your own services with it.",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "repository": "git://github.com/Alterdot/insight-ui-alterdot.git",
   "contributors": [
     {
